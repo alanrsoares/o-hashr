@@ -10,5 +10,7 @@ const encode = memoize((x) => x.split('').map(toCharCode).reduce(sum));
 
 const encodeLine = (xs, i) => xs.map(encode).reduce(sum) * (i + 1);
 
+const toKeyValueArray = map((k, v) => [k, v]);
+
 export const hash = (o) =>
-  map((k, v) => [k, v], o).map(encodeLine).reduce(sum).toString(36);
+  toKeyValueArray(o).map(encodeLine).reduce(sum).toString(36);
