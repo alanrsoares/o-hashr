@@ -1,0 +1,26 @@
+{
+  "name": "o-hashr",
+  "version": "0.1.0",
+  "description": "Lightweight object hash calculator",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alanrsoares/o-hashr.git"
+  },
+  "keywords": [
+    "hash",
+    "calculator"
+  ],
+  "author": "Alanr R. Soares (@alanrsoares)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alanrsoares/o-hashr/issues"
+  },
+  "homepage": "https://github.com/alanrsoares/o-hashr#readme"
+}
